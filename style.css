@@ -1,0 +1,83 @@
+:root {
+    --pink: #ebbab9;
+    --blue: #698996;
+    border: none;
+    padding: none;
+    margin: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+button {
+    background-color: var(--blue);
+    border: none;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+    align-content: center;
+    width: auto;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: var(--pink);
+}
+
+button:active {
+    background-color: var(--pink);
+}
+
+#header h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 50px 10px;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+
+.dragonCard {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue);
+    margin: 40px;
+    color: white;
+
+}
+
+.water {
+    font-size: 150px;
+    cursor: pointer;
+    filter: hue-rotate(150deg)
+}
+.wind {
+    font-size: 150px;
+    cursor: pointer;
+    filter: hue-rotate(220deg) saturate(50%)
+    
+}
+.fire {
+    font-size: 150px;
+    cursor: pointer;
+    filter: hue-rotate(300deg)
+}
+.earth {
+    font-size: 150px;
+    cursor: pointer;
+}
+.space {
+    font-size: 150px;
+    cursor: pointer;
+    filter: hue-rotate(130deg) saturate(60%);
+}
+
